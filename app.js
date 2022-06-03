@@ -32,6 +32,7 @@ class Peluche{
 
 const mostrarMensaje = (Peluche) => {
     console.log('El Peluche ' + Peluche.marca + ' de ' + Peluche.modelo + ' cuesta $' + Peluche.precio)
+    alert('El Peluche ' + Peluche.marca + ' de ' + Peluche.modelo + ' cuesta $' + Peluche.precio)
 }
 
 
@@ -64,6 +65,7 @@ const agregarProducto = () => {
         agregarProducto()
     } else {
         console.log('Finalizo Compra, su total es de $' + totalCarrito())
+        alert('Finalizo Compra, su total es de $' + totalCarrito())
         console.log(carrito)
     }
 }
